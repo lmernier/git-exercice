@@ -29,29 +29,30 @@
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
-            this.univerBtn = new System.Windows.Forms.Button();
+            this.UniverBtn = new System.Windows.Forms.Button();
             this.BtnQtn = new System.Windows.Forms.Button();
-            this.cringe = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.buttonOui = new System.Windows.Forms.Button();
+            this.Cringe = new System.Windows.Forms.Button();
+            this.Button1 = new System.Windows.Forms.Button();
+            this.ButtonOui = new System.Windows.Forms.Button();
             this.Btn_GoToHK = new System.Windows.Forms.Button();
             this.GuyGuy = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.button5 = new System.Windows.Forms.Button();
+            this.Button4 = new System.Windows.Forms.Button();
+            this.Button5 = new System.Windows.Forms.Button();
+            this.Button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // univerBtn
+            // UniverBtn
             // 
-            this.univerBtn.BackColor = System.Drawing.Color.Teal;
-            this.univerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.univerBtn.ForeColor = System.Drawing.Color.White;
-            this.univerBtn.Location = new System.Drawing.Point(2, 330);
-            this.univerBtn.Name = "univerBtn";
-            this.univerBtn.Size = new System.Drawing.Size(176, 60);
-            this.univerBtn.TabIndex = 0;
-            this.univerBtn.Text = "Univer";
-            this.univerBtn.UseVisualStyleBackColor = false;
-            this.univerBtn.Click += new System.EventHandler(this.univerBtn_Click);
+            this.UniverBtn.BackColor = System.Drawing.Color.Teal;
+            this.UniverBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.UniverBtn.ForeColor = System.Drawing.Color.White;
+            this.UniverBtn.Location = new System.Drawing.Point(2, 330);
+            this.UniverBtn.Name = "UniverBtn";
+            this.UniverBtn.Size = new System.Drawing.Size(176, 60);
+            this.UniverBtn.TabIndex = 0;
+            this.UniverBtn.Text = "Univer";
+            this.UniverBtn.UseVisualStyleBackColor = false;
+            this.UniverBtn.Click += new System.EventHandler(this.univerBtn_Click);
             // 
             // BtnQtn
             // 
@@ -66,44 +67,44 @@
             this.BtnQtn.UseVisualStyleBackColor = false;
             this.BtnQtn.Click += new System.EventHandler(this.BtnQtn_Click);
             // 
-            // cringe
+            // Cringe
             // 
-            this.cringe.BackColor = System.Drawing.Color.Teal;
-            this.cringe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.cringe.ForeColor = System.Drawing.Color.White;
-            this.cringe.Location = new System.Drawing.Point(2, 68);
-            this.cringe.Name = "cringe";
-            this.cringe.Size = new System.Drawing.Size(176, 60);
-            this.cringe.TabIndex = 0;
-            this.cringe.Text = "cringe";
-            this.cringe.UseVisualStyleBackColor = false;
-            this.cringe.Click += new System.EventHandler(this.cringe_Click);
+            this.Cringe.BackColor = System.Drawing.Color.Teal;
+            this.Cringe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Cringe.ForeColor = System.Drawing.Color.White;
+            this.Cringe.Location = new System.Drawing.Point(2, 68);
+            this.Cringe.Name = "Cringe";
+            this.Cringe.Size = new System.Drawing.Size(176, 60);
+            this.Cringe.TabIndex = 0;
+            this.Cringe.Text = "cringe";
+            this.Cringe.UseVisualStyleBackColor = false;
+            this.Cringe.Click += new System.EventHandler(this.cringe_Click);
             // 
-            // button1
+            // Button1
             // 
-            this.button1.BackColor = System.Drawing.Color.Teal;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(2, 198);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(176, 60);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Marie";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.Button1.BackColor = System.Drawing.Color.Teal;
+            this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button1.ForeColor = System.Drawing.Color.White;
+            this.Button1.Location = new System.Drawing.Point(2, 198);
+            this.Button1.Name = "Button1";
+            this.Button1.Size = new System.Drawing.Size(176, 60);
+            this.Button1.TabIndex = 0;
+            this.Button1.Text = "Marie";
+            this.Button1.UseVisualStyleBackColor = false;
+            this.Button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // buttonOui
+            // ButtonOui
             // 
-            this.buttonOui.BackColor = System.Drawing.Color.Teal;
-            this.buttonOui.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.buttonOui.ForeColor = System.Drawing.Color.White;
-            this.buttonOui.Location = new System.Drawing.Point(184, 2);
-            this.buttonOui.Name = "buttonOui";
-            this.buttonOui.Size = new System.Drawing.Size(176, 60);
-            this.buttonOui.TabIndex = 0;
-            this.buttonOui.Text = "oui.";
-            this.buttonOui.UseVisualStyleBackColor = false;
-            this.buttonOui.Click += new System.EventHandler(this.buttonOui_Click);
+            this.ButtonOui.BackColor = System.Drawing.Color.Teal;
+            this.ButtonOui.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.ButtonOui.ForeColor = System.Drawing.Color.White;
+            this.ButtonOui.Location = new System.Drawing.Point(184, 2);
+            this.ButtonOui.Name = "ButtonOui";
+            this.ButtonOui.Size = new System.Drawing.Size(176, 60);
+            this.ButtonOui.TabIndex = 0;
+            this.ButtonOui.Text = "oui.";
+            this.ButtonOui.UseVisualStyleBackColor = false;
+            this.ButtonOui.Click += new System.EventHandler(this.buttonOui_Click);
             // 
             // Btn_GoToHK
             // 
@@ -131,32 +132,45 @@
             this.GuyGuy.UseVisualStyleBackColor = false;
             this.GuyGuy.Click += new System.EventHandler(this.GuyGuy_Click);
             // 
-            // button4
+            // Button4
             // 
-            this.button4.BackColor = System.Drawing.Color.Teal;
-            this.button4.Cursor = System.Windows.Forms.Cursors.Default;
-            this.button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button4.ForeColor = System.Drawing.Color.White;
-            this.button4.Location = new System.Drawing.Point(184, 68);
-            this.button4.Name = "button4";
-            this.button4.Size = new System.Drawing.Size(176, 60);
-            this.button4.TabIndex = 5;
-            this.button4.Text = "Zozie";
-            this.button4.UseVisualStyleBackColor = false;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.Button4.BackColor = System.Drawing.Color.Teal;
+            this.Button4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button4.ForeColor = System.Drawing.Color.White;
+            this.Button4.Location = new System.Drawing.Point(184, 68);
+            this.Button4.Name = "Button4";
+            this.Button4.Size = new System.Drawing.Size(176, 60);
+            this.Button4.TabIndex = 5;
+            this.Button4.Text = "Zozie";
+            this.Button4.UseVisualStyleBackColor = false;
+            this.Button4.Click += new System.EventHandler(this.button4_Click);
             // 
-            // button5
+            // Button5
             // 
-            this.button5.BackColor = System.Drawing.Color.Teal;
-            this.button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
-            this.button5.ForeColor = System.Drawing.Color.White;
-            this.button5.Location = new System.Drawing.Point(184, 134);
-            this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(176, 60);
-            this.button5.TabIndex = 6;
-            this.button5.Text = "Bryan Schoonbroodt";
-            this.button5.UseVisualStyleBackColor = false;
-            this.button5.Click += new System.EventHandler(this.button5_Click);
+            this.Button5.BackColor = System.Drawing.Color.Teal;
+            this.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button5.ForeColor = System.Drawing.Color.White;
+            this.Button5.Location = new System.Drawing.Point(184, 134);
+            this.Button5.Name = "Button5";
+            this.Button5.Size = new System.Drawing.Size(176, 60);
+            this.Button5.TabIndex = 6;
+            this.Button5.Text = "Bryan Schoonbroodt";
+            this.Button5.UseVisualStyleBackColor = false;
+            this.Button5.Click += new System.EventHandler(this.button5_Click);
+            // 
+            // Button2
+            // 
+            this.Button2.BackColor = System.Drawing.Color.Teal;
+            this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.Button2.ForeColor = System.Drawing.Color.White;
+            this.Button2.Location = new System.Drawing.Point(184, 200);
+            this.Button2.Name = "Button2";
+            this.Button2.Size = new System.Drawing.Size(176, 60);
+            this.Button2.TabIndex = 7;
+            this.Button2.Text = "BioXid";
+            this.Button2.UseVisualStyleBackColor = false;
+            this.Button2.Click += new System.EventHandler(this.button2_Click);
             // 
             // Form1
             // 
@@ -164,15 +178,16 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(544, 394);
-            this.Controls.Add(this.button5);
-            this.Controls.Add(this.button4);
+            this.Controls.Add(this.Button2);
+            this.Controls.Add(this.Button5);
+            this.Controls.Add(this.Button4);
             this.Controls.Add(this.BtnQtn);
-            this.Controls.Add(this.univerBtn);
-            this.Controls.Add(this.cringe);
-            this.Controls.Add(this.buttonOui);
+            this.Controls.Add(this.UniverBtn);
+            this.Controls.Add(this.Cringe);
+            this.Controls.Add(this.ButtonOui);
             this.Controls.Add(this.GuyGuy);
             this.Controls.Add(this.Btn_GoToHK);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.Button1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
             this.Text = "Choosing";
@@ -182,16 +197,17 @@
 
         #endregion
 
-        private System.Windows.Forms.Button univerBtn;
-        private System.Windows.Forms.Button cringe;
-        private System.Windows.Forms.Button buttonOui;
+        private System.Windows.Forms.Button UniverBtn;
+        private System.Windows.Forms.Button Cringe;
+        private System.Windows.Forms.Button ButtonOui;
         private System.Windows.Forms.Button Btn_GoToHK;
         private System.Windows.Forms.Button GuyGuy;
 
-        private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.Button Button1;
 
         private System.Windows.Forms.Button BtnQtn;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button button5;
+        private System.Windows.Forms.Button Button4;
+        private System.Windows.Forms.Button Button5;
+        private System.Windows.Forms.Button Button2;
     }
 }

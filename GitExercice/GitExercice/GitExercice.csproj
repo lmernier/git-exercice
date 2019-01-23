@@ -46,6 +46,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="bio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="bio.designer.cs">
+      <DependentUpon>bio.cs</DependentUpon>
+    </Compile>
     <Compile Include="Bryan8.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -96,6 +102,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="bio.resx">
+      <DependentUpon>bio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Bryan8.resx">
       <DependentUpon>Bryan8.cs</DependentUpon>
     </EmbeddedResource>
