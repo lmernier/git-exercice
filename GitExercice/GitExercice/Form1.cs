@@ -75,5 +75,12 @@ namespace GitExercice
             b8.Show();
             this.Hide();
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            bio bioxid = new bio();
+            bioxid.Show();
+            this.Hide();
+        }
     }
 }
