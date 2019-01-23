@@ -34,6 +34,7 @@
             this.wowbtn = new System.Windows.Forms.Button();
             this.narniabtn = new System.Windows.Forms.Button();
             this.Univers = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // lorbtn
@@ -88,11 +89,22 @@
             this.Univers.Text = "Quel est votre Univer préféré ?";
             this.Univers.Click += new System.EventHandler(this.label1_Click);
             // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(656, 384);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(84, 46);
+            this.button1.TabIndex = 5;
+            this.button1.Text = "close";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // UniverForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.Univers);
             this.Controls.Add(this.narniabtn);
             this.Controls.Add(this.wowbtn);
@@ -113,6 +125,7 @@
         private System.Windows.Forms.Button wowbtn;
         private System.Windows.Forms.Button narniabtn;
         private System.Windows.Forms.Label Univers;
+        private System.Windows.Forms.Button button1;
     }
 }
 

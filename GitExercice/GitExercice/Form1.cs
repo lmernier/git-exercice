@@ -63,15 +63,13 @@ namespace GitExercice
             hk.Show();
             this.Hide();
         }
-
-        private void button2_Click(object sender, EventArgs e)
+        private void button4_Click(object sender, EventArgs e)
         {
             FormZozie zozie = new FormZozie();
             zozie.Show();
             this.Hide();
         }
-
-        private void button3_Click(object sender, EventArgs e)
+        private void button5_Click(object sender, EventArgs e)
         {
             Bryan8 b8 = new Bryan8();
             b8.Show();
