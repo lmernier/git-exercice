@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-<<<<<<< HEAD
             this.cringe = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -41,7 +40,6 @@
             this.cringe.Text = "cringe";
             this.cringe.UseVisualStyleBackColor = true;
             this.cringe.Click += new System.EventHandler(this.cringe_Click);
-=======
             this.buttonOui = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
@@ -54,18 +52,14 @@
             this.buttonOui.Text = "oui.";
             this.buttonOui.UseVisualStyleBackColor = true;
             this.buttonOui.Click += new System.EventHandler(this.buttonOui_Click);
->>>>>>> b310c0476845923877ce003a720752bd0270e071
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-<<<<<<< HEAD
             this.Controls.Add(this.cringe);
-=======
             this.Controls.Add(this.buttonOui);
->>>>>>> b310c0476845923877ce003a720752bd0270e071
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -74,11 +68,8 @@
 
         #endregion
 
-<<<<<<< HEAD
         private System.Windows.Forms.Button cringe;
-=======
         private System.Windows.Forms.Button buttonOui;
->>>>>>> b310c0476845923877ce003a720752bd0270e071
     }
 }
 

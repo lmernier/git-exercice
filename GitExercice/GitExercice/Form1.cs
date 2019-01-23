@@ -15,21 +15,18 @@ namespace GitExercice
         public Form1()
         {
             InitializeComponent();
-<<<<<<< HEAD
         }       
 
         private void cringe_Click(object sender, EventArgs e)
         {
             Form2 lel = new Form2();
             lel.Show();
-=======
         }
 
         private void buttonOui_Click(object sender, EventArgs e)
         {
             Oui o = new Oui();
             o.Show();
->>>>>>> b310c0476845923877ce003a720752bd0270e071
         }
     }
 }
