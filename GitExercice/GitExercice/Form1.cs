@@ -17,6 +17,6 @@ namespace GitExercice
             InitializeComponent();
         }
         private void no_u_Click(object sender, EventArgs e)
-        { MessageBox.Show("No u reverse card"); }
+        { while (true) { MessageBox.Show("No u reverse card"); } }
     }
 }
