@@ -39,9 +39,9 @@
             // 
             // univerBtn
             // 
-            this.univerBtn.Location = new System.Drawing.Point(2, 238);
+            this.univerBtn.Location = new System.Drawing.Point(0, 312);
             this.univerBtn.Name = "univerBtn";
-            this.univerBtn.Size = new System.Drawing.Size(180, 60);
+            this.univerBtn.Size = new System.Drawing.Size(176, 60);
             this.univerBtn.TabIndex = 0;
             this.univerBtn.Text = "Univer";
             this.univerBtn.UseVisualStyleBackColor = true;
@@ -49,9 +49,9 @@
             // 
             // BtnQtn
             // 
-            this.BtnQtn.Location = new System.Drawing.Point(2, 67);
+            this.BtnQtn.Location = new System.Drawing.Point(0, 181);
             this.BtnQtn.Name = "BtnQtn";
-            this.BtnQtn.Size = new System.Drawing.Size(180, 52);
+            this.BtnQtn.Size = new System.Drawing.Size(176, 60);
             this.BtnQtn.TabIndex = 0;
             this.BtnQtn.Text = "Quentin";
             this.BtnQtn.UseVisualStyleBackColor = true;
@@ -59,9 +59,9 @@
             // 
             // cringe
             // 
-            this.cringe.Location = new System.Drawing.Point(2, 182);
+            this.cringe.Location = new System.Drawing.Point(0, 246);
             this.cringe.Name = "cringe";
-            this.cringe.Size = new System.Drawing.Size(180, 50);
+            this.cringe.Size = new System.Drawing.Size(176, 60);
             this.cringe.TabIndex = 0;
             this.cringe.Text = "cringe";
             this.cringe.UseVisualStyleBackColor = true;
@@ -69,9 +69,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(2, 125);
+            this.button1.Location = new System.Drawing.Point(2, 378);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(180, 51);
+            this.button1.Size = new System.Drawing.Size(174, 60);
             this.button1.TabIndex = 0;
             this.button1.Text = "Marie";
             this.button1.UseVisualStyleBackColor = true;
@@ -79,9 +79,9 @@
             // 
             // buttonOui
             // 
-            this.buttonOui.Location = new System.Drawing.Point(2, 12);
+            this.buttonOui.Location = new System.Drawing.Point(0, 115);
             this.buttonOui.Name = "buttonOui";
-            this.buttonOui.Size = new System.Drawing.Size(180, 49);
+            this.buttonOui.Size = new System.Drawing.Size(176, 60);
             this.buttonOui.TabIndex = 0;
             this.buttonOui.Text = "oui.";
             this.buttonOui.UseVisualStyleBackColor = true;
@@ -89,16 +89,18 @@
             // 
             // Btn_GoToHK
             // 
-            this.Btn_GoToHK.Location = new System.Drawing.Point(0, 0);
+            this.Btn_GoToHK.Location = new System.Drawing.Point(182, 378);
             this.Btn_GoToHK.Name = "Btn_GoToHK";
-            this.Btn_GoToHK.Size = new System.Drawing.Size(75, 23);
+            this.Btn_GoToHK.Size = new System.Drawing.Size(176, 60);
             this.Btn_GoToHK.TabIndex = 2;
+            this.Btn_GoToHK.Text = "Go to HK";
+            this.Btn_GoToHK.Click += new System.EventHandler(this.Btn_GoToHK_Click);
             // 
             // GuyGuy
             // 
-            this.GuyGuy.Location = new System.Drawing.Point(330, 205);
+            this.GuyGuy.Location = new System.Drawing.Point(2, 49);
             this.GuyGuy.Name = "GuyGuy";
-            this.GuyGuy.Size = new System.Drawing.Size(168, 67);
+            this.GuyGuy.Size = new System.Drawing.Size(174, 60);
             this.GuyGuy.TabIndex = 1;
             this.GuyGuy.Text = "Guy Guy²";
             this.GuyGuy.UseVisualStyleBackColor = true;
