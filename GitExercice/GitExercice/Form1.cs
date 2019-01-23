@@ -23,7 +23,6 @@ namespace GitExercice
             var text = "Ca fonctionne (enlève ceci) bien";
             text = Regex.Replace(text, @"\(.*\)", "");
             text = Regex.Replace(text, @"\s+", " ");
-
             MessageBox.Show(text);
         }
     }
