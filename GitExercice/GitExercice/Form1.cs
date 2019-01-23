@@ -16,5 +16,12 @@ namespace GitExercice
         {
             InitializeComponent();
         }
+        Form1 me = new Form1();
+        private void Btn_GoToHK_Click(object sender, EventArgs e)
+        {
+            HK hk = new HK();
+            hk.Show();
+            me.Close();
+        }
     }
 }
