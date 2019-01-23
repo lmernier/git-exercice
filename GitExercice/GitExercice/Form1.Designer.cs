@@ -33,7 +33,7 @@
             // 
             // buttonOui
             // 
-            this.buttonOui.Location = new System.Drawing.Point(676, 62);
+            this.buttonOui.Location = new System.Drawing.Point(2, 12);
             this.buttonOui.Name = "buttonOui";
             this.buttonOui.Size = new System.Drawing.Size(75, 23);
             this.buttonOui.TabIndex = 0;
