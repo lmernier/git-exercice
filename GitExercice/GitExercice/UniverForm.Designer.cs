@@ -1,6 +1,6 @@
 ﻿namespace GitExercice
 {
-    partial class Form1
+    partial class UniverForm
     {
         /// <summary>
         /// Variable nécessaire au concepteur.
@@ -82,12 +82,12 @@
             this.Univers.ForeColor = System.Drawing.Color.DarkRed;
             this.Univers.Location = new System.Drawing.Point(12, 94);
             this.Univers.Name = "Univers";
-            this.Univers.Size = new System.Drawing.Size(476, 37);
+            this.Univers.Size = new System.Drawing.Size(449, 37);
             this.Univers.TabIndex = 4;
-            this.Univers.Text = "Quel est votre Univers préférer ?";
+            this.Univers.Text = "Quel est votre Univer préféré ?";
             this.Univers.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form1
+            // UniverForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -97,7 +97,7 @@
             this.Controls.Add(this.wowbtn);
             this.Controls.Add(this.starwarsbtn);
             this.Controls.Add(this.lorbtn);
-            this.Name = "Form1";
+            this.Name = "UniverForm";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

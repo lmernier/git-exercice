@@ -28,14 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.univerBtn = new System.Windows.Forms.Button();
             this.SuspendLayout();
-
+            // 
+            // univerBtn
+            // 
+            this.univerBtn.Location = new System.Drawing.Point(567, 143);
+            this.univerBtn.Name = "univerBtn";
+            this.univerBtn.Size = new System.Drawing.Size(179, 68);
+            this.univerBtn.TabIndex = 0;
+            this.univerBtn.Text = "Univer";
+            this.univerBtn.UseVisualStyleBackColor = true;
+            this.univerBtn.Click += new System.EventHandler(this.univerBtn_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.univerBtn);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -43,6 +54,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button univerBtn;
     }
 }
 

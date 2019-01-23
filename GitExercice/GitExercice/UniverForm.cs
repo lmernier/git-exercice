@@ -10,13 +10,13 @@ using System.Windows.Forms;
 
 namespace GitExercice
 {
-    public partial class Form1 : Form
+    public partial class UniverForm : Form
     {
         int starwars = 0;
         int narnia = 0;
         int wow = 0;
         int lor = 0;
-        public Form1()
+        public UniverForm()
         {
             InitializeComponent();
          

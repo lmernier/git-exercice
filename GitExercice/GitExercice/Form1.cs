@@ -16,5 +16,12 @@ namespace GitExercice
         {
             InitializeComponent();
         }
+
+        private void univerBtn_Click(object sender, EventArgs e)
+        {
+            UniverForm f2 = new UniverForm();
+            f2.Show();
+            this.Hide();
+        }
     }
 }
