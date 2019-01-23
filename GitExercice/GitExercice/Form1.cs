@@ -26,7 +26,10 @@ namespace GitExercice
 
         private void button1_Click(object sender, EventArgs e)
         {
-            MessageBox.Show("Oui");
+            while (true)
+            {
+                MessageBox.Show("Oui");
+            }
         }
     }
 }
