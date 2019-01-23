@@ -10,7 +10,7 @@ using System.Windows.Forms;
 
 namespace GitExercice
 {
-    public partial class Form1 : Form
+    public partial class Form1 : System.Windows.Forms.Form
     {
         public Form1()
         {
@@ -27,6 +27,13 @@ namespace GitExercice
         {
             Oui o = new Oui();
             o.Show();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            FormMarie f2 = new FormMarie();
+            f2.Show();
+            this.Hide();
         }
     }
 }
