@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(FormMarie));
             this.txtQuestionsMath = new System.Windows.Forms.TextBox();
             this.lst = new System.Windows.Forms.ListBox();
             this.button1 = new System.Windows.Forms.Button();
@@ -67,7 +68,7 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
-            // Form1
+            // FormMarie
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -75,7 +76,8 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.lst);
             this.Controls.Add(this.txtQuestionsMath);
-            this.Name = "Form1";
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
+            this.Name = "FormMarie";
             this.Text = "Form1";
             this.ResumeLayout(false);
             this.PerformLayout();

@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(UniverForm));
             this.lorbtn = new System.Windows.Forms.Button();
             this.starwarsbtn = new System.Windows.Forms.Button();
             this.wowbtn = new System.Windows.Forms.Button();
@@ -97,6 +98,7 @@
             this.Controls.Add(this.wowbtn);
             this.Controls.Add(this.starwarsbtn);
             this.Controls.Add(this.lorbtn);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "UniverForm";
             this.Text = "Form1";
             this.ResumeLayout(false);

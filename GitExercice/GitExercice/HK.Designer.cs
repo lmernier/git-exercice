@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(HK));
             this.CB_add = new System.Windows.Forms.CheckBox();
             this.CB_soustract = new System.Windows.Forms.CheckBox();
             this.CB_multiply = new System.Windows.Forms.CheckBox();
@@ -199,6 +200,7 @@
             this.Controls.Add(this.CB_multiply);
             this.Controls.Add(this.CB_soustract);
             this.Controls.Add(this.CB_add);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "HK";
             this.Text = "HK-Calculate";
             ((System.ComponentModel.ISupportInitialize)(this.NUD_first)).EndInit();

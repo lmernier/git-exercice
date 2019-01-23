@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.univerBtn = new System.Windows.Forms.Button();
             this.BtnQtn = new System.Windows.Forms.Button();
             this.cringe = new System.Windows.Forms.Button();
@@ -39,7 +40,7 @@
             // 
             // univerBtn
             // 
-            this.univerBtn.Location = new System.Drawing.Point(184, 68);
+            this.univerBtn.Location = new System.Drawing.Point(2, 330);
             this.univerBtn.Name = "univerBtn";
             this.univerBtn.Size = new System.Drawing.Size(176, 60);
             this.univerBtn.TabIndex = 0;
@@ -49,7 +50,7 @@
             // 
             // BtnQtn
             // 
-            this.BtnQtn.Location = new System.Drawing.Point(366, 2);
+            this.BtnQtn.Location = new System.Drawing.Point(2, 264);
             this.BtnQtn.Name = "BtnQtn";
             this.BtnQtn.Size = new System.Drawing.Size(176, 60);
             this.BtnQtn.TabIndex = 0;
@@ -69,7 +70,7 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(366, 68);
+            this.button1.Location = new System.Drawing.Point(2, 198);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 60);
             this.button1.TabIndex = 0;
@@ -110,7 +111,8 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(546, 270);
+            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.ClientSize = new System.Drawing.Size(544, 394);
             this.Controls.Add(this.BtnQtn);
             this.Controls.Add(this.univerBtn);
             this.Controls.Add(this.cringe);
@@ -118,8 +120,9 @@
             this.Controls.Add(this.GuyGuy);
             this.Controls.Add(this.Btn_GoToHK);
             this.Controls.Add(this.button1);
+            this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
-            this.Text = "Form2";
+            this.Text = "Choosing";
             this.ResumeLayout(false);
 
         }
