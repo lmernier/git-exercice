@@ -28,25 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.Btn_GoToHK = new System.Windows.Forms.Button();
+            this.no_u = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
-            // Btn_GoToHK
+            // no_u
             // 
-            this.Btn_GoToHK.Location = new System.Drawing.Point(612, 378);
-            this.Btn_GoToHK.Name = "Btn_GoToHK";
-            this.Btn_GoToHK.Size = new System.Drawing.Size(176, 60);
-            this.Btn_GoToHK.TabIndex = 0;
-            this.Btn_GoToHK.Text = "Hugo Kinif";
-            this.Btn_GoToHK.UseVisualStyleBackColor = true;
-            this.Btn_GoToHK.Click += new System.EventHandler(this.Btn_GoToHK_Click);
+            this.no_u.Location = new System.Drawing.Point(245, 106);
+            this.no_u.Name = "no_u";
+            this.no_u.Size = new System.Drawing.Size(332, 135);
+            this.no_u.TabIndex = 0;
+            this.no_u.Text = "No you";
+            this.no_u.UseVisualStyleBackColor = true;
+            this.no_u.Click += new System.EventHandler(this.no_u_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.Btn_GoToHK);
+            this.Controls.Add(this.no_u);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -55,7 +55,7 @@
 
         #endregion
 
-        private System.Windows.Forms.Button Btn_GoToHK;
+        private System.Windows.Forms.Button no_u;
     }
 }
 
