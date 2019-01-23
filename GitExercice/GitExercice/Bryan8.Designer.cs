@@ -55,6 +55,7 @@ namespace GitExercice
             // button_close
             // 
             this.button_close.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button_close.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button_close.Location = new System.Drawing.Point(529, 197);
             this.button_close.Name = "button_close";
             this.button_close.Size = new System.Drawing.Size(64, 32);
@@ -65,6 +66,9 @@ namespace GitExercice
             // 
             // numericUpDown1
             // 
+            this.numericUpDown1.BackColor = System.Drawing.SystemColors.WindowText;
+            this.numericUpDown1.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown1.ForeColor = System.Drawing.Color.White;
             this.numericUpDown1.Location = new System.Drawing.Point(13, 86);
             this.numericUpDown1.Maximum = new decimal(new int[] {
             1000000,
@@ -72,11 +76,14 @@ namespace GitExercice
             0,
             0});
             this.numericUpDown1.Name = "numericUpDown1";
-            this.numericUpDown1.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown1.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown1.TabIndex = 1;
             // 
             // numericUpDown2
             // 
+            this.numericUpDown2.BackColor = System.Drawing.SystemColors.WindowText;
+            this.numericUpDown2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.numericUpDown2.ForeColor = System.Drawing.Color.White;
             this.numericUpDown2.Location = new System.Drawing.Point(13, 130);
             this.numericUpDown2.Maximum = new decimal(new int[] {
             1000000,
@@ -84,12 +91,16 @@ namespace GitExercice
             0,
             0});
             this.numericUpDown2.Name = "numericUpDown2";
-            this.numericUpDown2.Size = new System.Drawing.Size(120, 20);
+            this.numericUpDown2.Size = new System.Drawing.Size(120, 16);
             this.numericUpDown2.TabIndex = 2;
             // 
             // button1
             // 
-            this.button1.BackColor = System.Drawing.SystemColors.WindowFrame;
+            this.button1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.button1.Cursor = System.Windows.Forms.Cursors.Arrow;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 10F);
+            this.button1.ForeColor = System.Drawing.Color.Black;
             this.button1.Location = new System.Drawing.Point(195, 67);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(134, 83);
@@ -123,6 +134,7 @@ namespace GitExercice
             // listBox1
             // 
             this.listBox1.BackColor = System.Drawing.Color.Black;
+            this.listBox1.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.listBox1.Enabled = false;
             this.listBox1.ForeColor = System.Drawing.Color.Gold;
             this.listBox1.FormattingEnabled = true;
@@ -131,7 +143,7 @@ namespace GitExercice
             "========================================"});
             this.listBox1.Location = new System.Drawing.Point(136, 9);
             this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(246, 30);
+            this.listBox1.Size = new System.Drawing.Size(246, 26);
             this.listBox1.TabIndex = 6;
             // 
             // label3
@@ -180,43 +192,56 @@ namespace GitExercice
             // 
             // textBox_simplestring
             // 
+            this.textBox_simplestring.BackColor = System.Drawing.SystemColors.ControlText;
+            this.textBox_simplestring.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBox_simplestring.Cursor = System.Windows.Forms.Cursors.Default;
+            this.textBox_simplestring.ForeColor = System.Drawing.Color.White;
             this.textBox_simplestring.Location = new System.Drawing.Point(364, 76);
             this.textBox_simplestring.Name = "textBox_simplestring";
             this.textBox_simplestring.ReadOnly = true;
-            this.textBox_simplestring.Size = new System.Drawing.Size(101, 20);
+            this.textBox_simplestring.Size = new System.Drawing.Size(101, 13);
             this.textBox_simplestring.TabIndex = 15;
             // 
             // StringBuilderBox
             // 
+            this.StringBuilderBox.BackColor = System.Drawing.SystemColors.ControlText;
+            this.StringBuilderBox.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.StringBuilderBox.ForeColor = System.Drawing.Color.White;
             this.StringBuilderBox.Location = new System.Drawing.Point(365, 129);
             this.StringBuilderBox.Name = "StringBuilderBox";
             this.StringBuilderBox.ReadOnly = true;
-            this.StringBuilderBox.Size = new System.Drawing.Size(100, 20);
+            this.StringBuilderBox.Size = new System.Drawing.Size(100, 13);
             this.StringBuilderBox.TabIndex = 16;
             // 
             // textBox2
             // 
+            this.textBox2.BackColor = System.Drawing.SystemColors.ControlText;
+            this.textBox2.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox2.ForeColor = System.Drawing.Color.White;
             this.textBox2.Location = new System.Drawing.Point(493, 76);
             this.textBox2.Name = "textBox2";
             this.textBox2.ReadOnly = true;
-            this.textBox2.Size = new System.Drawing.Size(100, 20);
+            this.textBox2.Size = new System.Drawing.Size(100, 13);
             this.textBox2.TabIndex = 17;
             // 
             // textBox3
             // 
+            this.textBox3.BackColor = System.Drawing.SystemColors.ControlText;
+            this.textBox3.BorderStyle = System.Windows.Forms.BorderStyle.None;
+            this.textBox3.ForeColor = System.Drawing.Color.White;
             this.textBox3.Location = new System.Drawing.Point(493, 129);
             this.textBox3.Name = "textBox3";
             this.textBox3.ReadOnly = true;
-            this.textBox3.Size = new System.Drawing.Size(100, 20);
+            this.textBox3.Size = new System.Drawing.Size(100, 13);
             this.textBox3.TabIndex = 18;
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
-            this.pictureBox1.Location = new System.Drawing.Point(1, -2);
+            this.pictureBox1.Location = new System.Drawing.Point(0, 0);
             this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(599, 240);
+            this.pictureBox1.Size = new System.Drawing.Size(598, 236);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 19;
             this.pictureBox1.TabStop = false;
