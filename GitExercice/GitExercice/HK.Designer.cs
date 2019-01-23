@@ -41,6 +41,7 @@
             this.TB_result = new System.Windows.Forms.TextBox();
             this.BTN_calculate = new System.Windows.Forms.Button();
             this.BTN_return = new System.Windows.Forms.Button();
+            this.label3 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_first)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.NUD_second)).BeginInit();
             this.SuspendLayout();
@@ -183,11 +184,21 @@
             this.BTN_return.UseVisualStyleBackColor = true;
             this.BTN_return.Click += new System.EventHandler(this.BTN_return_Click);
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(4, 150);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(37, 13);
+            this.label3.TabIndex = 12;
+            this.label3.Text = "Result";
+            // 
             // HK
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(360, 196);
+            this.Controls.Add(this.label3);
             this.Controls.Add(this.BTN_return);
             this.Controls.Add(this.BTN_calculate);
             this.Controls.Add(this.TB_result);
@@ -224,5 +235,6 @@
         private System.Windows.Forms.TextBox TB_result;
         private System.Windows.Forms.Button BTN_calculate;
         private System.Windows.Forms.Button BTN_return;
+        private System.Windows.Forms.Label label3;
     }
 }
