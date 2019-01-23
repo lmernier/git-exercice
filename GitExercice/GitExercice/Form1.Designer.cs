@@ -36,6 +36,7 @@
             this.buttonOui = new System.Windows.Forms.Button();
             this.Btn_GoToHK = new System.Windows.Forms.Button();
             this.GuyGuy = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // univerBtn
@@ -129,12 +130,26 @@
             this.GuyGuy.UseVisualStyleBackColor = false;
             this.GuyGuy.Click += new System.EventHandler(this.GuyGuy_Click);
             // 
+            // button2
+            // 
+            this.button2.BackColor = System.Drawing.Color.Teal;
+            this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button2.ForeColor = System.Drawing.Color.White;
+            this.button2.Location = new System.Drawing.Point(184, 68);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(176, 60);
+            this.button2.TabIndex = 3;
+            this.button2.Text = "Zozie";
+            this.button2.UseVisualStyleBackColor = false;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(544, 394);
+            this.Controls.Add(this.button2);
             this.Controls.Add(this.BtnQtn);
             this.Controls.Add(this.univerBtn);
             this.Controls.Add(this.cringe);
@@ -160,5 +175,6 @@
         private System.Windows.Forms.Button button1;
 
         private System.Windows.Forms.Button BtnQtn;
+        private System.Windows.Forms.Button button2;
     }
 }
