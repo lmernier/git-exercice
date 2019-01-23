@@ -28,67 +28,62 @@
         /// </summary>
         private void InitializeComponent()
         {
-
             this.univerBtn = new System.Windows.Forms.Button();
             this.BtnQtn = new System.Windows.Forms.Button();
+            this.cringe = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.buttonOui = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // univerBtn
             // 
-            this.univerBtn.Location = new System.Drawing.Point(567, 143);
+            this.univerBtn.Location = new System.Drawing.Point(2, 238);
             this.univerBtn.Name = "univerBtn";
-            this.univerBtn.Size = new System.Drawing.Size(179, 68);
+            this.univerBtn.Size = new System.Drawing.Size(180, 60);
             this.univerBtn.TabIndex = 0;
             this.univerBtn.Text = "Univer";
             this.univerBtn.UseVisualStyleBackColor = true;
             this.univerBtn.Click += new System.EventHandler(this.univerBtn_Click);
-
-            this.cringe = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
-            this.SuspendLayout();
-            // 
-            // cringe
             // 
             // BtnQtn
             // 
-            this.BtnQtn.Location = new System.Drawing.Point(13, 13);
+            this.BtnQtn.Location = new System.Drawing.Point(2, 67);
             this.BtnQtn.Name = "BtnQtn";
-            this.BtnQtn.Size = new System.Drawing.Size(165, 46);
+            this.BtnQtn.Size = new System.Drawing.Size(180, 52);
             this.BtnQtn.TabIndex = 0;
             this.BtnQtn.Text = "Quentin";
             this.BtnQtn.UseVisualStyleBackColor = true;
             this.BtnQtn.Click += new System.EventHandler(this.BtnQtn_Click);
             // 
-            this.cringe.Location = new System.Drawing.Point(245, 106);
+            // cringe
+            // 
+            this.cringe.Location = new System.Drawing.Point(2, 182);
             this.cringe.Name = "cringe";
-            this.cringe.Size = new System.Drawing.Size(332, 135);
+            this.cringe.Size = new System.Drawing.Size(180, 50);
             this.cringe.TabIndex = 0;
             this.cringe.Text = "cringe";
             this.cringe.UseVisualStyleBackColor = true;
             this.cringe.Click += new System.EventHandler(this.cringe_Click);
-            this.buttonOui = new System.Windows.Forms.Button();
-            this.SuspendLayout();
+            // 
+            // button1
+            // 
+            this.button1.Location = new System.Drawing.Point(2, 125);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(180, 51);
+            this.button1.TabIndex = 0;
+            this.button1.Text = "Marie";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // buttonOui
             // 
             this.buttonOui.Location = new System.Drawing.Point(2, 12);
             this.buttonOui.Name = "buttonOui";
-            this.buttonOui.Size = new System.Drawing.Size(75, 23);
+            this.buttonOui.Size = new System.Drawing.Size(180, 49);
             this.buttonOui.TabIndex = 0;
             this.buttonOui.Text = "oui.";
             this.buttonOui.UseVisualStyleBackColor = true;
             this.buttonOui.Click += new System.EventHandler(this.buttonOui_Click);
-
-            // 
-            // button1
-            // 
-            this.button1.Location = new System.Drawing.Point(255, 72);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(75, 23);
-            this.button1.TabIndex = 0;
-            this.button1.Text = "Marie";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // Form1
             // 
