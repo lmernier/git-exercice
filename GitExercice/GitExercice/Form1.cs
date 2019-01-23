@@ -46,7 +46,7 @@ namespace GitExercice
 
         private void BtnQtn_Click(object sender, EventArgs e)
         {
-            var text = "Ca fonctionne (enlève ceci) bien";
+            var text = "Ca fonctionne (enlève( et ceci aussi) ceci) bien";
             text = Regex.Replace(text, @"\(.*\)", "");
             text = Regex.Replace(text, @"\s+", " ");
             MessageBox.Show(text);

@@ -39,7 +39,7 @@
             // 
             // univerBtn
             // 
-            this.univerBtn.Location = new System.Drawing.Point(0, 312);
+            this.univerBtn.Location = new System.Drawing.Point(184, 68);
             this.univerBtn.Name = "univerBtn";
             this.univerBtn.Size = new System.Drawing.Size(176, 60);
             this.univerBtn.TabIndex = 0;
@@ -49,7 +49,7 @@
             // 
             // BtnQtn
             // 
-            this.BtnQtn.Location = new System.Drawing.Point(0, 181);
+            this.BtnQtn.Location = new System.Drawing.Point(366, 2);
             this.BtnQtn.Name = "BtnQtn";
             this.BtnQtn.Size = new System.Drawing.Size(176, 60);
             this.BtnQtn.TabIndex = 0;
@@ -59,7 +59,7 @@
             // 
             // cringe
             // 
-            this.cringe.Location = new System.Drawing.Point(0, 246);
+            this.cringe.Location = new System.Drawing.Point(2, 68);
             this.cringe.Name = "cringe";
             this.cringe.Size = new System.Drawing.Size(176, 60);
             this.cringe.TabIndex = 0;
@@ -69,9 +69,9 @@
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(2, 378);
+            this.button1.Location = new System.Drawing.Point(366, 68);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(174, 60);
+            this.button1.Size = new System.Drawing.Size(176, 60);
             this.button1.TabIndex = 0;
             this.button1.Text = "Marie";
             this.button1.UseVisualStyleBackColor = true;
@@ -79,7 +79,7 @@
             // 
             // buttonOui
             // 
-            this.buttonOui.Location = new System.Drawing.Point(0, 115);
+            this.buttonOui.Location = new System.Drawing.Point(184, 2);
             this.buttonOui.Name = "buttonOui";
             this.buttonOui.Size = new System.Drawing.Size(176, 60);
             this.buttonOui.TabIndex = 0;
@@ -89,7 +89,7 @@
             // 
             // Btn_GoToHK
             // 
-            this.Btn_GoToHK.Location = new System.Drawing.Point(182, 378);
+            this.Btn_GoToHK.Location = new System.Drawing.Point(2, 134);
             this.Btn_GoToHK.Name = "Btn_GoToHK";
             this.Btn_GoToHK.Size = new System.Drawing.Size(176, 60);
             this.Btn_GoToHK.TabIndex = 2;
@@ -98,9 +98,9 @@
             // 
             // GuyGuy
             // 
-            this.GuyGuy.Location = new System.Drawing.Point(2, 49);
+            this.GuyGuy.Location = new System.Drawing.Point(2, 2);
             this.GuyGuy.Name = "GuyGuy";
-            this.GuyGuy.Size = new System.Drawing.Size(174, 60);
+            this.GuyGuy.Size = new System.Drawing.Size(176, 60);
             this.GuyGuy.TabIndex = 1;
             this.GuyGuy.Text = "Guy Guy²";
             this.GuyGuy.UseVisualStyleBackColor = true;
@@ -110,7 +110,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(546, 270);
             this.Controls.Add(this.BtnQtn);
             this.Controls.Add(this.univerBtn);
             this.Controls.Add(this.cringe);
