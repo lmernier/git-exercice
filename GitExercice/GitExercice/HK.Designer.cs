@@ -51,6 +51,7 @@
             this.CB_add.AutoSize = true;
             this.CB_add.Checked = true;
             this.CB_add.CheckState = System.Windows.Forms.CheckState.Checked;
+            this.CB_add.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CB_add.Location = new System.Drawing.Point(138, 47);
             this.CB_add.Name = "CB_add";
             this.CB_add.Size = new System.Drawing.Size(64, 17);
@@ -62,6 +63,7 @@
             // CB_soustract
             // 
             this.CB_soustract.AutoSize = true;
+            this.CB_soustract.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CB_soustract.Location = new System.Drawing.Point(138, 70);
             this.CB_soustract.Name = "CB_soustract";
             this.CB_soustract.Size = new System.Drawing.Size(85, 17);
@@ -73,6 +75,7 @@
             // CB_multiply
             // 
             this.CB_multiply.AutoSize = true;
+            this.CB_multiply.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CB_multiply.Location = new System.Drawing.Point(138, 93);
             this.CB_multiply.Name = "CB_multiply";
             this.CB_multiply.Size = new System.Drawing.Size(87, 17);
@@ -84,6 +87,7 @@
             // CB_divide
             // 
             this.CB_divide.AutoSize = true;
+            this.CB_divide.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CB_divide.Location = new System.Drawing.Point(138, 116);
             this.CB_divide.Name = "CB_divide";
             this.CB_divide.Size = new System.Drawing.Size(63, 17);
@@ -95,6 +99,7 @@
             // CB_modulo
             // 
             this.CB_modulo.AutoSize = true;
+            this.CB_modulo.Cursor = System.Windows.Forms.Cursors.Hand;
             this.CB_modulo.Location = new System.Drawing.Point(138, 139);
             this.CB_modulo.Name = "CB_modulo";
             this.CB_modulo.Size = new System.Drawing.Size(61, 17);
@@ -105,6 +110,7 @@
             // 
             // NUD_first
             // 
+            this.NUD_first.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.NUD_first.Location = new System.Drawing.Point(12, 44);
             this.NUD_first.Maximum = new decimal(new int[] {
             9999,
@@ -117,6 +123,7 @@
             // 
             // NUD_second
             // 
+            this.NUD_second.Cursor = System.Windows.Forms.Cursors.IBeam;
             this.NUD_second.Location = new System.Drawing.Point(228, 44);
             this.NUD_second.Maximum = new decimal(new int[] {
             9999,
@@ -166,6 +173,7 @@
             // 
             // BTN_calculate
             // 
+            this.BTN_calculate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BTN_calculate.Location = new System.Drawing.Point(230, 75);
             this.BTN_calculate.Name = "BTN_calculate";
             this.BTN_calculate.Size = new System.Drawing.Size(117, 41);
@@ -176,6 +184,7 @@
             // 
             // BTN_return
             // 
+            this.BTN_return.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BTN_return.Location = new System.Drawing.Point(263, 157);
             this.BTN_return.Name = "BTN_return";
             this.BTN_return.Size = new System.Drawing.Size(84, 28);
