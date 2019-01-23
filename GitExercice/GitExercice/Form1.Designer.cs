@@ -87,12 +87,10 @@
 
         #endregion
 
-<<<<<<< HEAD
         private System.Windows.Forms.Button univerBtn;
-=======
         private System.Windows.Forms.Button cringe;
         private System.Windows.Forms.Button buttonOui;
->>>>>>> bfd60c546fb22d123513cf20f180fb040956c244
+
     }
 }
 
