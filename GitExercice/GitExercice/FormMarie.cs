@@ -10,18 +10,22 @@ using System.Windows.Forms;
 
 namespace GitExercice
 {
-    public partial class Form1 : System.Windows.Forms.Form
+    public partial class FormMarie : System.Windows.Forms.Form
     {
-        public Form1()
+        public FormMarie()
         {
             InitializeComponent();
         }
 
+        private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
-            FormMarie f2 = new FormMarie();
-            f2.Show();
-            this.Hide();
+            MessageBox.Show("2");
+            lst.Items.Add("****2****");
         }
     }
 }
