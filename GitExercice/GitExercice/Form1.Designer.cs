@@ -41,6 +41,7 @@
             // univerBtn
             // 
             this.univerBtn.BackColor = System.Drawing.Color.Teal;
+            this.univerBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.univerBtn.ForeColor = System.Drawing.Color.White;
             this.univerBtn.Location = new System.Drawing.Point(2, 330);
             this.univerBtn.Name = "univerBtn";
@@ -53,6 +54,7 @@
             // BtnQtn
             // 
             this.BtnQtn.BackColor = System.Drawing.Color.Teal;
+            this.BtnQtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnQtn.ForeColor = System.Drawing.Color.White;
             this.BtnQtn.Location = new System.Drawing.Point(2, 264);
             this.BtnQtn.Name = "BtnQtn";
@@ -65,6 +67,7 @@
             // cringe
             // 
             this.cringe.BackColor = System.Drawing.Color.Teal;
+            this.cringe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.cringe.ForeColor = System.Drawing.Color.White;
             this.cringe.Location = new System.Drawing.Point(2, 68);
             this.cringe.Name = "cringe";
@@ -77,6 +80,7 @@
             // button1
             // 
             this.button1.BackColor = System.Drawing.Color.Teal;
+            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(2, 198);
             this.button1.Name = "button1";
@@ -89,6 +93,7 @@
             // buttonOui
             // 
             this.buttonOui.BackColor = System.Drawing.Color.Teal;
+            this.buttonOui.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.buttonOui.ForeColor = System.Drawing.Color.White;
             this.buttonOui.Location = new System.Drawing.Point(184, 2);
             this.buttonOui.Name = "buttonOui";
@@ -101,6 +106,7 @@
             // Btn_GoToHK
             // 
             this.Btn_GoToHK.BackColor = System.Drawing.Color.Teal;
+            this.Btn_GoToHK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_GoToHK.ForeColor = System.Drawing.Color.White;
             this.Btn_GoToHK.Location = new System.Drawing.Point(2, 134);
             this.Btn_GoToHK.Name = "Btn_GoToHK";
@@ -113,6 +119,7 @@
             // GuyGuy
             // 
             this.GuyGuy.BackColor = System.Drawing.Color.Teal;
+            this.GuyGuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GuyGuy.ForeColor = System.Drawing.Color.White;
             this.GuyGuy.Location = new System.Drawing.Point(2, 2);
             this.GuyGuy.Name = "GuyGuy";
