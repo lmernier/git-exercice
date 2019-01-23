@@ -70,5 +70,12 @@ namespace GitExercice
             zozie.Show();
             this.Hide();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Bryan8 b8 = new Bryan8();
+            b8.Show();
+            this.Hide();
+        }
     }
 }

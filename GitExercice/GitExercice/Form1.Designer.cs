@@ -37,6 +37,7 @@
             this.Btn_GoToHK = new System.Windows.Forms.Button();
             this.GuyGuy = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // univerBtn
@@ -143,12 +144,26 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.Color.Teal;
+            this.button3.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.button3.ForeColor = System.Drawing.Color.White;
+            this.button3.Location = new System.Drawing.Point(184, 134);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(176, 60);
+            this.button3.TabIndex = 4;
+            this.button3.Text = "Bryan Schoonbroodt";
+            this.button3.UseVisualStyleBackColor = false;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
             this.ClientSize = new System.Drawing.Size(544, 394);
+            this.Controls.Add(this.button3);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.BtnQtn);
             this.Controls.Add(this.univerBtn);
@@ -176,5 +191,6 @@
 
         private System.Windows.Forms.Button BtnQtn;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button3;
     }
 }
