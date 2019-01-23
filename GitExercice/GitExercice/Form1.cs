@@ -51,5 +51,10 @@ namespace GitExercice
             text = Regex.Replace(text, @"\s+", " ");
             MessageBox.Show(text);
         }
+
+        private void GuyGuy_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bienvenue à Guy Guy Land");
+        }
     }
 }
