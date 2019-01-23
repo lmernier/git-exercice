@@ -44,6 +44,7 @@
             // UniverBtn
             // 
             this.UniverBtn.BackColor = System.Drawing.Color.Teal;
+            this.UniverBtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.UniverBtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.UniverBtn.ForeColor = System.Drawing.Color.White;
             this.UniverBtn.Location = new System.Drawing.Point(2, 330);
@@ -57,6 +58,7 @@
             // BtnQtn
             // 
             this.BtnQtn.BackColor = System.Drawing.Color.Teal;
+            this.BtnQtn.Cursor = System.Windows.Forms.Cursors.Hand;
             this.BtnQtn.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.BtnQtn.ForeColor = System.Drawing.Color.White;
             this.BtnQtn.Location = new System.Drawing.Point(2, 264);
@@ -70,6 +72,7 @@
             // Cringe
             // 
             this.Cringe.BackColor = System.Drawing.Color.Teal;
+            this.Cringe.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Cringe.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Cringe.ForeColor = System.Drawing.Color.White;
             this.Cringe.Location = new System.Drawing.Point(2, 68);
@@ -83,6 +86,7 @@
             // Button1
             // 
             this.Button1.BackColor = System.Drawing.Color.Teal;
+            this.Button1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button1.ForeColor = System.Drawing.Color.White;
             this.Button1.Location = new System.Drawing.Point(2, 198);
@@ -96,6 +100,7 @@
             // ButtonOui
             // 
             this.ButtonOui.BackColor = System.Drawing.Color.Teal;
+            this.ButtonOui.Cursor = System.Windows.Forms.Cursors.Hand;
             this.ButtonOui.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.ButtonOui.ForeColor = System.Drawing.Color.White;
             this.ButtonOui.Location = new System.Drawing.Point(184, 2);
@@ -109,6 +114,7 @@
             // Btn_GoToHK
             // 
             this.Btn_GoToHK.BackColor = System.Drawing.Color.Teal;
+            this.Btn_GoToHK.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Btn_GoToHK.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Btn_GoToHK.ForeColor = System.Drawing.Color.White;
             this.Btn_GoToHK.Location = new System.Drawing.Point(2, 134);
@@ -122,6 +128,7 @@
             // GuyGuy
             // 
             this.GuyGuy.BackColor = System.Drawing.Color.Teal;
+            this.GuyGuy.Cursor = System.Windows.Forms.Cursors.Hand;
             this.GuyGuy.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.GuyGuy.ForeColor = System.Drawing.Color.White;
             this.GuyGuy.Location = new System.Drawing.Point(2, 2);
@@ -135,7 +142,7 @@
             // Button4
             // 
             this.Button4.BackColor = System.Drawing.Color.Teal;
-            this.Button4.Cursor = System.Windows.Forms.Cursors.Default;
+            this.Button4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Button4.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button4.ForeColor = System.Drawing.Color.White;
             this.Button4.Location = new System.Drawing.Point(184, 68);
@@ -149,6 +156,7 @@
             // Button5
             // 
             this.Button5.BackColor = System.Drawing.Color.Teal;
+            this.Button5.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Button5.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button5.ForeColor = System.Drawing.Color.White;
             this.Button5.Location = new System.Drawing.Point(184, 134);
@@ -162,6 +170,7 @@
             // Button2
             // 
             this.Button2.BackColor = System.Drawing.Color.Teal;
+            this.Button2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.Button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.Button2.ForeColor = System.Drawing.Color.White;
             this.Button2.Location = new System.Drawing.Point(184, 200);
