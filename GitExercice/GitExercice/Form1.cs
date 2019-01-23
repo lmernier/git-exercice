@@ -16,5 +16,12 @@ namespace GitExercice
         {
             InitializeComponent();
         }
+
+        private void BtnBio_Click(object sender, EventArgs e)
+        {
+            bio button = new bio();
+            button.Show();
+            this.Hide();
+        }
     }
 }

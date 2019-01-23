@@ -28,14 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.BtnBio = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            
+            // 
+            // BtnBio
+            // 
+            this.BtnBio.Location = new System.Drawing.Point(136, 14);
+            this.BtnBio.Name = "BtnBio";
+            this.BtnBio.Size = new System.Drawing.Size(118, 36);
+            this.BtnBio.TabIndex = 0;
+            this.BtnBio.Text = "bioxid";
+            this.BtnBio.UseVisualStyleBackColor = true;
+            this.BtnBio.Click += new System.EventHandler(this.BtnBio_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.BtnBio);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -43,6 +54,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button BtnBio;
     }
 }
 
