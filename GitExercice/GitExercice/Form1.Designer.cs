@@ -40,71 +40,86 @@
             // 
             // univerBtn
             // 
+            this.univerBtn.BackColor = System.Drawing.Color.Teal;
+            this.univerBtn.ForeColor = System.Drawing.Color.White;
             this.univerBtn.Location = new System.Drawing.Point(2, 330);
             this.univerBtn.Name = "univerBtn";
             this.univerBtn.Size = new System.Drawing.Size(176, 60);
             this.univerBtn.TabIndex = 0;
             this.univerBtn.Text = "Univer";
-            this.univerBtn.UseVisualStyleBackColor = true;
+            this.univerBtn.UseVisualStyleBackColor = false;
             this.univerBtn.Click += new System.EventHandler(this.univerBtn_Click);
             // 
             // BtnQtn
             // 
+            this.BtnQtn.BackColor = System.Drawing.Color.Teal;
+            this.BtnQtn.ForeColor = System.Drawing.Color.White;
             this.BtnQtn.Location = new System.Drawing.Point(2, 264);
             this.BtnQtn.Name = "BtnQtn";
             this.BtnQtn.Size = new System.Drawing.Size(176, 60);
             this.BtnQtn.TabIndex = 0;
             this.BtnQtn.Text = "Quentin";
-            this.BtnQtn.UseVisualStyleBackColor = true;
+            this.BtnQtn.UseVisualStyleBackColor = false;
             this.BtnQtn.Click += new System.EventHandler(this.BtnQtn_Click);
             // 
             // cringe
             // 
+            this.cringe.BackColor = System.Drawing.Color.Teal;
+            this.cringe.ForeColor = System.Drawing.Color.White;
             this.cringe.Location = new System.Drawing.Point(2, 68);
             this.cringe.Name = "cringe";
             this.cringe.Size = new System.Drawing.Size(176, 60);
             this.cringe.TabIndex = 0;
             this.cringe.Text = "cringe";
-            this.cringe.UseVisualStyleBackColor = true;
+            this.cringe.UseVisualStyleBackColor = false;
             this.cringe.Click += new System.EventHandler(this.cringe_Click);
             // 
             // button1
             // 
+            this.button1.BackColor = System.Drawing.Color.Teal;
+            this.button1.ForeColor = System.Drawing.Color.White;
             this.button1.Location = new System.Drawing.Point(2, 198);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(176, 60);
             this.button1.TabIndex = 0;
             this.button1.Text = "Marie";
-            this.button1.UseVisualStyleBackColor = true;
+            this.button1.UseVisualStyleBackColor = false;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // buttonOui
             // 
+            this.buttonOui.BackColor = System.Drawing.Color.Teal;
+            this.buttonOui.ForeColor = System.Drawing.Color.White;
             this.buttonOui.Location = new System.Drawing.Point(184, 2);
             this.buttonOui.Name = "buttonOui";
             this.buttonOui.Size = new System.Drawing.Size(176, 60);
             this.buttonOui.TabIndex = 0;
             this.buttonOui.Text = "oui.";
-            this.buttonOui.UseVisualStyleBackColor = true;
+            this.buttonOui.UseVisualStyleBackColor = false;
             this.buttonOui.Click += new System.EventHandler(this.buttonOui_Click);
             // 
             // Btn_GoToHK
             // 
+            this.Btn_GoToHK.BackColor = System.Drawing.Color.Teal;
+            this.Btn_GoToHK.ForeColor = System.Drawing.Color.White;
             this.Btn_GoToHK.Location = new System.Drawing.Point(2, 134);
             this.Btn_GoToHK.Name = "Btn_GoToHK";
             this.Btn_GoToHK.Size = new System.Drawing.Size(176, 60);
             this.Btn_GoToHK.TabIndex = 2;
             this.Btn_GoToHK.Text = "Go to HK";
+            this.Btn_GoToHK.UseVisualStyleBackColor = false;
             this.Btn_GoToHK.Click += new System.EventHandler(this.Btn_GoToHK_Click);
             // 
             // GuyGuy
             // 
+            this.GuyGuy.BackColor = System.Drawing.Color.Teal;
+            this.GuyGuy.ForeColor = System.Drawing.Color.White;
             this.GuyGuy.Location = new System.Drawing.Point(2, 2);
             this.GuyGuy.Name = "GuyGuy";
             this.GuyGuy.Size = new System.Drawing.Size(176, 60);
             this.GuyGuy.TabIndex = 1;
             this.GuyGuy.Text = "Guy Guy²";
-            this.GuyGuy.UseVisualStyleBackColor = true;
+            this.GuyGuy.UseVisualStyleBackColor = false;
             this.GuyGuy.Click += new System.EventHandler(this.GuyGuy_Click);
             // 
             // Form1
