@@ -24,5 +24,10 @@ namespace GitExercice
                 MessageBox.Show("Oui");
             }
         }
+
+        private void GuyGuy_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Bienvenue à Guy Guy Land");
+        }
     }
 }
