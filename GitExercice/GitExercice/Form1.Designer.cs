@@ -28,6 +28,20 @@
         /// </summary>
         private void InitializeComponent()
         {
+
+            this.univerBtn = new System.Windows.Forms.Button();
+            this.SuspendLayout();
+            // 
+            // univerBtn
+            // 
+            this.univerBtn.Location = new System.Drawing.Point(567, 143);
+            this.univerBtn.Name = "univerBtn";
+            this.univerBtn.Size = new System.Drawing.Size(179, 68);
+            this.univerBtn.TabIndex = 0;
+            this.univerBtn.Text = "Univer";
+            this.univerBtn.UseVisualStyleBackColor = true;
+            this.univerBtn.Click += new System.EventHandler(this.univerBtn_Click);
+
             this.cringe = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -53,6 +67,7 @@
             this.buttonOui.Text = "oui.";
             this.buttonOui.UseVisualStyleBackColor = true;
             this.buttonOui.Click += new System.EventHandler(this.buttonOui_Click);
+
             // 
             // button1
             // 
@@ -69,6 +84,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.univerBtn);
             this.Controls.Add(this.cringe);
             this.Controls.Add(this.buttonOui);
             this.Controls.Add(this.button1);
@@ -80,6 +96,7 @@
 
         #endregion
 
+        private System.Windows.Forms.Button univerBtn;
         private System.Windows.Forms.Button cringe;
         private System.Windows.Forms.Button buttonOui;
 

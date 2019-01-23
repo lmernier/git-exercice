@@ -29,6 +29,13 @@ namespace GitExercice
             o.Show();
         }
 
+        private void univerBtn_Click(object sender, EventArgs e)
+        {
+            UniverForm f2 = new UniverForm();
+            f2.Show();
+            this.Hide();
+        }
+
         private void button1_Click(object sender, EventArgs e)
         {
             FormMarie f2 = new FormMarie();
