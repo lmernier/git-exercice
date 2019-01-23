@@ -17,7 +17,7 @@ namespace GitExercice
             InitializeComponent();
         }
 
-        private void button1_Click(object sender, EventArgs e)
+        private void buttonOui_Click(object sender, EventArgs e)
         {
             while (true)
             {

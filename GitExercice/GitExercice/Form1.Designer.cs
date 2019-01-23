@@ -28,14 +28,25 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.buttonOui = new System.Windows.Forms.Button();
             this.SuspendLayout();
-            
+            // 
+            // buttonOui
+            // 
+            this.buttonOui.Location = new System.Drawing.Point(676, 62);
+            this.buttonOui.Name = "buttonOui";
+            this.buttonOui.Size = new System.Drawing.Size(75, 23);
+            this.buttonOui.TabIndex = 0;
+            this.buttonOui.Text = "oui.";
+            this.buttonOui.UseVisualStyleBackColor = true;
+            this.buttonOui.Click += new System.EventHandler(this.buttonOui_Click);
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.buttonOui);
             this.Name = "Form1";
             this.Text = "Form1";
             this.ResumeLayout(false);
@@ -43,6 +54,8 @@
         }
 
         #endregion
+
+        private System.Windows.Forms.Button buttonOui;
     }
 }
 
